@@ -35,7 +35,9 @@
       <img src="logo.png" alt="Logo" class="logo" />
 
       <ul class="workouts">
+        <!-- form to fill infos : hidden she!!!!!!!!!! -->
         <form class="form hidden">
+          <!-- type -->
           <div class="form__row">
             <label class="form__label">Type</label>
             <select class="form__input form__input--type">
@@ -43,10 +45,12 @@
               <option value="cycling">Cycling</option>
             </select>
           </div>
+          <!-- distance -->
           <div class="form__row">
             <label class="form__label">Distance</label>
             <input class="form__input form__input--distance" placeholder="km" />
           </div>
+          <!-- duration -->
           <div class="form__row">
             <label class="form__label">Duration</label>
             <input
@@ -54,6 +58,7 @@
               placeholder="min"
             />
           </div>
+          <!-- cadence -->
           <div class="form__row">
             <label class="form__label">Cadence</label>
             <input
@@ -61,6 +66,7 @@
               placeholder="step/min"
             />
           </div>
+          <!-- elve gain -->
           <div class="form__row form__row--hidden">
             <label class="form__label">Elev Gain</label>
             <input
@@ -71,6 +77,7 @@
           <button class="form__btn">OK</button>
         </form>
 
+        <!-- a box for running -->
         <!-- <li class="workout workout--running" data-id="1234567890">
           <h2 class="workout__title">Running on April 14</h2>
           <div class="workout__details">
@@ -93,9 +100,10 @@
             <span class="workout__value">178</span>
             <span class="workout__unit">spm</span>
           </div>
-        </li>
+        </li> -->
 
-        <li class="workout workout--cycling" data-id="1234567891">
+        <!-- a box for cycling -->
+        <!-- <li class="workout workout--cycling" data-id="1234567891">
           <h2 class="workout__title">Cycling on April 5</h2>
           <div class="workout__details">
             <span class="workout__icon">🚴‍♀️</span>
@@ -120,7 +128,7 @@
         </li> -->
       </ul>
 
-      <p class="copyright">
+      <!-- <p class="copyright">
         &copy; Copyright by
         <a
           class="twitter-link"
@@ -129,7 +137,7 @@
           >Jonas Schmedtmann</a
         >. Use for learning or your portfolio. Don't use to teach. Don't claim
         as your own.
-      </p>
+      </p> -->
     </div>
 
     <div id="map"></div>
